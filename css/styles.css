@@ -78,7 +78,7 @@ body {
   border-bottom: 1px solid var(--color-cornflower);
   padding-top: 24px;
   padding-bottom: 24px;
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header-container {
@@ -149,15 +149,15 @@ body {
   margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-navy-blue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/fon-hero.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: var(--color-navy-blue);
 }
 .hero-title {
   max-width: 496px;
@@ -253,10 +253,7 @@ body {
   border-top: none;
   border: 1px solid var(--color-cloud);
   background-color: var(--color-white);
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .items {
@@ -314,6 +311,7 @@ body {
 }
 
 .costomers-list {
+  display: flex;
   gap: 24px;
 }
 .costomer-item {
