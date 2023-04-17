@@ -66,6 +66,7 @@ body {
   color: var(--color-grey);
 }
 .description-text {
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,6 +84,8 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .nav {
   display: flex;
@@ -214,7 +217,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 264px;
   height: 112px;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -324,6 +326,7 @@ body {
 .customers {
   padding: 120px 0;
 }
+
 /* Footer*/
 .logo-footer {
   display: inline-block;
